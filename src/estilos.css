@@ -1,5 +1,6 @@
 body{
     font-family: "Open Sans", sans-serif;
+    background-image: url("Fondo.jpg");
 }
 h1{
     font-weight: bold;
@@ -13,4 +14,35 @@ img{
 }
 .cuerpotexto{
     text-align: justify;
+}
+header {
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    background-color: #444;
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
 }
